@@ -21,10 +21,12 @@ Vou aumentar a variância em 50% para 7500
 
 1. Como cobrar preços dos combustíveis para o híbrido? 
 R. 50% de cada? mínimo dentre os dois?
+R.AU Eu acho melhor 50% de cada. Pelo menos fazemos diferencia entre carro híbrido e carro electrico. 
    
 2. Disponibilidade postos?
 R. Igual á gasolina?
-   
+R.AU Pode ser
+
 3. Híbrido usa gas ou energia? 
 R. Penso que deveríamos colocar uma probabilidade, 
    dependendo da disponibilidade de preços, ou um, ou outro.
