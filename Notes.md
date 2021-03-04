@@ -41,8 +41,7 @@ R. Igual á gasolina?
    
 3. Híbrido usa gas ou energia? 
 R. Penso que deveríamos colocar uma probabilidade, 
-   dependendo da disponibilidade de preços, ou um, ou outro.
-   
+   dependendo da disponibilidade de preços, ou um, ou outro.3
 r2. Alternativamente, todos podem usar etanol, né? Então se 70% da energia usa um, 
 senão o outro? Já direto nos parâmetros...
 
@@ -64,6 +63,9 @@ Total 	24
 
   
 
+param.py Linha 23
+price_energy = {'co': {'green': .88, 'hybrid': 80.5, 'gas': .73},
 
+price_energy = {'co': {'green': .88, 'hybrid': .81, 'gas': .73},
 
  
