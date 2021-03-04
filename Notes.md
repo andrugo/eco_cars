@@ -62,8 +62,17 @@ Sul 	         5
 Centro-Oeste	2
 Total 	24
 
-  
+cars.py linha 55 e
+O production_cost na realidade é o preço do carro. Deberiamos calcolar o custo de produção partindo desse valor. Ou seja temos que inverter a formula 4.
+A mudança deveria ser:
 
+cars.py linha 55 
+self.production_cost = (1 - params.pis[self.type]) * \
+                           (1 - params.cofins[self.type]) * \
+                           (1 - params.ipi[self.type]) * \
+                           (1 - params.p_lambda) * (1 - policy_tax) * self.sales_price
 
+params.py linha 16 
+sales_price = {'green': 35.158, 'hybrid': 23474, 'gas': 18163, 'min': 10000}
 
  
