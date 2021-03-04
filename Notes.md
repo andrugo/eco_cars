@@ -14,7 +14,8 @@ NOVAS NOTAS DE ULTIMOS AJUSTES INCLUIDOS
 ** IMPORTANTE **
 
 1. A tabela de valores do texto -- tabela 3 -- já inclui o desconto do IPI?
-XXXXXXXX
+AU Os preço do carro da tabela 3 são já embutido de todos os impostos.
+
 2. ICMS cobrado na região de DESTINO, certo... so CONSUMIDOR!
 
 3. IMPLEMENTADO O cashback de PD como limitado a 12.5% do investimento, comparado com TODOS OS impostos a pagar, 
@@ -22,6 +23,8 @@ XXXXXXXX
 
 4. ACHO QUE O CRITERIO DE CAR AFFORDABILITY DEVERIA SER MAIS PRESENTE QUE OS DEMAIS PORQUE VAI FAZER MUITA DIFERENÇA 
    AGORA ...
+AU  Acho bom. E se damos pesos aos criterios? Ou seja a idea é manter sempre o car affordability (visto que o principal criterio de escolha) e invez de dar peso 50% aumentar o peso dele 60% ou 70% e o outro criterio podemos fazer o modelo escolher uma da variavel com um peso inferior.
+   
 
 1. Como dar dinheiro para os consumidores?
 No original era 29000 com variancia de 5000, sendo o carro mais caro 27000
