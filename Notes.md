@@ -62,8 +62,14 @@ Sul 	         5
 Centro-Oeste	2
 Total 	24
 
-  
 
+param.py Linha 75
+Vi que os valores do norde são diferentes da tabela 5. Não sei se foi por um motivo.
 
+freight = {'co': {'co': 143, 'ne': 440, 'n': 441, 'se': 232, 's': 273},
+           'ne': {'co': 440, 'ne': 154, 'n': 709, 'se': 386, 's': 573},
+           'n': {'co': 441, 'ne': 709, 'n': 517, 'se': 602, 's': 642},
+           'se': {'co': 232, 'ne': 386, 'n': 600, 'se': 96, 's': 208},
+           's': {'co': 273, 'ne': 573, 'n': 642, 'se': 208, 's': 84}}
 
  
